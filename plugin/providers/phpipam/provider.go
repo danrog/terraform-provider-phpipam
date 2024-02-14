@@ -41,7 +41,7 @@ func Provider() *schema.Provider {
 			"verify_connection": {
 				Type:        schema.TypeBool,
 				Optional:    true,
-				Default:     true,
+				Default:     false,
 				Description: descriptions["verify_connection"],
 			},
 		},
