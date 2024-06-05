@@ -1,3 +1,5 @@
+## 1.5.5
+ * Fixed error with null section_id after a subsequent terraform apply
 ## 1.5.2
  * Fix error for vlans where custom field not defined 
 ## 1.5.1
